@@ -33,7 +33,7 @@
       "PathParameters": ["key"],
       "QueryParams": true,
       "BodyFormat": "json",
-      "BodyType": "*api.KVPair"
+      "BodyType": "[]byte"
     },
     "KVPutCAS": {
       "Path": "/v1/kv/%s",

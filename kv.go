@@ -45,7 +45,7 @@ func (m *Consul) KVList(prefix string, queryParams map[string]string, status int
 	return m.WithJSONReply(req, status, reply)
 }
 
-func (m *Consul) KVPut(key string, queryParams map[string]string, body *api.KVPair, status int) *mockapi.MockAPICall {
+func (m *Consul) KVPut(key string, queryParams map[string]string, body []byte, status int) *mockapi.MockAPICall {
 	req := mockapi.NewMockRequest("PUT", fmt.Sprintf("/v1/kv/%s", key)).WithBody(body).WithQueryParams(queryParams)
 
 	return m.WithNoResponseBody(req, status)
