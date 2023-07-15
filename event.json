@@ -1,0 +1,13 @@
+{
+  "Imports": {
+    "api": "github.com/hashicorp/consul/api"
+  },
+  "Endpoints": {
+    "EventFire": {
+      "Path": "/v1/event/fire/%s",
+      "Method": "PUT",
+      "BodyFormat": "string",
+      "ResponseFormat": "json"
+    }
+  }
+}

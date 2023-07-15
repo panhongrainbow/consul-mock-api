@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/hashicorp/consul/api"
-	mockapi "github.com/mkeeler/mock-http-api"
+	mockapi "github.com/panhongrainbow/mock-http-api"
 )
 
 func (m *Consul) AgentCheckDeregister(checkID string, status int) *mockapi.MockAPICall {

@@ -4,7 +4,7 @@ package mockconsul
 
 import (
 	"fmt"
-	mockapi "github.com/mkeeler/mock-http-api"
+	mockapi "github.com/panhongrainbow/mock-http-api"
 
 	"github.com/hashicorp/consul/api"
 )

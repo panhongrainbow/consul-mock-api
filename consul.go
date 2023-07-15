@@ -1,6 +1,6 @@
 package mockconsul
 
-import "github.com/mkeeler/mock-http-api"
+import mockapi "github.com/panhongrainbow/mock-http-api"
 
 type Consul struct {
 	*mockapi.MockAPI

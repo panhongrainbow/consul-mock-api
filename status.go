@@ -3,7 +3,7 @@
 package mockconsul
 
 import (
-	mockapi "github.com/mkeeler/mock-http-api"
+	mockapi "github.com/panhongrainbow/mock-http-api"
 )
 
 func (m *Consul) StatusLeader(status int, reply string) *mockapi.MockAPICall {

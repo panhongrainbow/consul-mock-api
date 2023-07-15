@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/hashicorp/consul/api v1.16.0
-	github.com/mkeeler/mock-http-api v0.0.0-20201203162141-a6b0fbe0e72b
+	github.com/panhongrainbow/mock-http-api v0.0.2
 	github.com/stretchr/testify v1.7.1
 )
 
